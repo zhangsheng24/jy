@@ -1,0 +1,105 @@
+@import './iconfont.css';
+/* 引入第三方或自定义的字体图标样式 */
+
+.v-margin-top-20 {
+  margin-top: 20px;
+}
+
+.v-margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.v-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+/* 换行 */
+.v-flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* 不换行 */
+.v-flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+/* 垂直居中 */
+.v-col-center {
+  align-items: center;
+}
+
+/* 顶部对齐 */
+.v-col-top {
+  align-items: flex-start;
+}
+
+/* 底部对齐 */
+.v-col-bottom {
+  align-items: flex-end;
+}
+
+/* 左边对齐 */
+.v-row-left {
+  justify-content: flex-start;
+}
+
+/* 水平居中 */
+.v-row-center {
+  justify-content: center;
+}
+
+/* 右边对齐 */
+.v-row-right {
+  justify-content: flex-end;
+}
+
+/* 水平两端对齐，项目之间的间隔都相等 */
+.v-row-between {
+  justify-content: space-between;
+}
+
+/* 水平每个项目两侧的间隔相等，所以项目之间的间隔比项目与父元素两边的间隔大一倍 */
+.v-row-around {
+  justify-content: space-around;
+}
+
+.v-flex-1 {
+  flex: 1;
+}
+
+/* 垂直布局 */
+.v-flex-column {
+  flex-direction: column
+}
+
+.safe {
+  box-sizing: border-box;
+  padding-bottom: calc(64px + constant(safe-area-inset-bottom));
+  padding-bottom: calc(64px + env(safe-area-inset-bottom));
+}
+
+.title_wrap {
+  font-size: 15px;
+  color: #444a4a;
+  padding: 0 15px;
+  line-height: 40px;
+  height: 40px;
+}
+
+.field-label-text {
+  font-size: 15px !important;
+}
+
+.cell-value-text {
+  color: #4070ff;
+  font-size: 15px;
+}
+
+/* 省略号 */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,55 @@
+const tradeList = [
+    "IT",
+    "医药/医疗",
+    "新能源",
+    "地产",
+    "食品",
+    "金融",
+    "制造业",
+    "体育",
+    "展会/展览",
+    "婚礼/婚庆",
+    "化妆/时尚",
+    "教育/培训",
+    "商超/零售",
+    "公关",
+    "汽车",
+    "协会/组织",
+    "酒类行业",
+    "家居",
+    "其他"
+]
+const contact = [{
+    text:'请选择',
+    value:'0',
+    disabled:false
+},{
+    text:'电话',
+    value:'phone',
+    disabled:false
+},{
+    text:'邮箱',
+    value:'email',
+    disabled:false
+},{
+    text:'地址',
+    value:'address',
+    disabled:false
+},{
+    text:'官网',
+    value:'webUrl',
+    disabled:false
+},{
+    text:'微信',
+    value:'WeChat',
+    disabled:false
+},{
+    text:'QQ',
+    value:'qq',
+    disabled:false
+}]
+export default {
+    // 所属行业
+    tradeList,
+    contact
+}
